@@ -19,9 +19,48 @@ nav img {
 }
 nav ul {
     list-style-type: none;
+    padding: 0;
 }
 .button {
     background-color: #e6a563;
     border-radius: 10px;
     padding: 5px 10px;
 }
+
+.nav1 ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1em;
+}
+
+.nav1 li:first-child {
+    margin-right: auto;
+}
+
+.nav2 ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1em;
+}
+
+.nav2 li:last-child {
+    margin-left: auto;
+}
+
+.nav3 ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.center-links {
+    display: flex;
+    gap: 15px;
+}
+
+
+
+
+
