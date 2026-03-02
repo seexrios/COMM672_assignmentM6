@@ -1,0 +1,27 @@
+body {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #000
+}
+a:hover {
+    color: #e6a563;
+}
+nav {
+    background-color: #efefef;
+    padding: 10px;
+    margin-bottom: 2em;
+}
+nav img {
+    width: 250px;
+}
+nav ul {
+    list-style-type: none;
+}
+.button {
+    background-color: #e6a563;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
